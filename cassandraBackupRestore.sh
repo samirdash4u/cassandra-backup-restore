@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-# Written By	: samir.r@healtechsoftware.ai
+# Written By	: samirdash4u@gmail.com
 # Reviewed By	: 
 # Date		: 17-Feb-2021
 # Inputs	: -h <help message>

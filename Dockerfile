@@ -17,7 +17,7 @@ RUN set -eux; \
 	rm -rf /var/lib/apt/lists/*
 
 COPY ./docker-entrypoint.sh /
-ADD http://192.168.13.69:8081/nexus/repository/third-party/cassandra.tar /opt
+COPY ./cassandra.tar /opt/
 RUN cd /opt && tar -xvf cassandra.tar && rm -f cassandra.tar
 
 RUN chmod +x /docker-entrypoint.sh
