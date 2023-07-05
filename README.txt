@@ -1,6 +1,6 @@
 You can download the script and cassandra.tar and start using it. The script expects cassandra is running over ssl.
 
-If there is a requirement to use it with cassandra non ssl, please raise a ticke. i will address the same.
+If there is a requirement to use it with cassandra non ssl, please raise a ticket. i will address the same.
 
 Usage 
 	 /usr/bin/bash cassandraBackupRestore.sh {-h|-H|-L|-B|-R|-D|-d|-f|-P|-p|-K|-S|-T}
